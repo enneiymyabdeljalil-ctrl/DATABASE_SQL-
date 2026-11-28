@@ -1,0 +1,6 @@
+# Make GitHub detect and show SQL as the repository language
+*.sql linguist-detectable=true linguist-language=SQL
+# Course documents are documentation, not code
+*.docx linguist-documentation
+*.pptx linguist-documentation
+*.pdf linguist-documentation
